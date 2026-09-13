@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Arif Hossain | Mathematics Educator & CSE Graduate</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top custom-navbar py-3">
+        <div class="container">
+            <a class="navbar-brand fs-4" href="#home">
+                <i class="fas fa-graduation-cap text-primary me-2"></i>Md. Arif Hossain
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-ul navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-custom-primary btn-sm mt-2 mt-lg-0" href="#contact">Hire Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Arif Hossain | Mathematics Educator & CSE Graduate</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg sticky-top custom-navbar py-3">
+        <div class="container">
+            <a class="navbar-brand fs-4" href="#home">
+                <i class="fas fa-graduation-cap text-primary me-2"></i>Md. Arif Hossain
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a class="btn btn-custom-primary btn-sm mt-2 mt-lg-0" href="#contact">Hire Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+
+                <!-- Left Content -->
+                <div class="col-lg-7 text-center text-lg-start mt-4 mt-lg-0">
+                    <span class="badge-tag mb-3 d-inline-block">
+                        <i class="fas fa-chalkboard-teacher me-2"></i>Mathematics & ICT Educator
+                    </span>
+                    <h1 class="hero-title mt-2">Hello, I'm <span class="text-primary">Md. Arif Hossain</span></h1>
+                    <h4 class="text-secondary fw-medium mb-3">CSE Graduate | 3+ Years Teaching Experience</h4>
+                    <p class="lead text-muted mb-4">
+                        Passionate Mathematics Teacher & Computer Science Graduate dedicated to simplifying complex math problems and helping students achieve academic excellence in SSC Mathematics & HSC ICT.
+                    </p>
+
+                    <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3">
+                        <a href="{{ url_for('static', filename='files/CV.pdf') }}" class="btn btn-primary rounded-pill px-4 py-2 fw-semibold shadow-sm" download>
+                            <i class="fas fa-download me-2"></i>Download CV
+                        </a>
+                        <a href="#contact" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-semibold">
+                            <i class="fas fa-envelope me-2"></i>Contact Me
+                        </a>
+                    </div>
+
+                    <!-- Quick Social Links -->
+                    <div class="mt-4 pt-2">
+                        <a href="#" class="text-secondary me-3 fs-5"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-secondary me-3 fs-5"><i class="fab fa-github"></i></a>
+                        <a href="#" class="text-secondary me-3 fs-5"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-secondary fs-5"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Right Profile Picture -->
+                <div class="col-lg-5 text-center">
+                    <div class="profile-img-container">
+                        <img src="{{ url_for('static', filename='images/profile.jpg') }}"
+                             onerror="this.src='https://via.placeholder.com/320x320?text=Arif+Hossain'"
+                             alt="Md. Arif Hossain"
+                             class="profile-img">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- About Me Section -->
+    <section id="about" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title">About Me</h2>
+                <p class="text-muted">Discover my background, experience, and passion for education.</p>
+            </div>
+
+            <div class="row align-items-center">
+                <!-- Main Description -->
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <h3 class="fw-bold text-dark mb-3">Dedicated Educator with a Computer Science Mindset</h3>
+                    <p class="text-muted leading-relaxed">
+                        I am a Computer Science and Engineering (CSE) graduate from <strong>Begum Rokeya University, Rangpur</strong>, and a dedicated <strong>Mathematics Teacher at Creative Academy</strong> with over 3 years of teaching experience.
+                    </p>
+                    <p class="text-muted leading-relaxed">
+                        My primary focus is preparing SSC students for success in Mathematics and helping HSC students master Information and Communication Technology (ICT). By bridging analytical problem-solving techniques from CSE with student-friendly teaching methodologies, I help learners overcome their fear of math and technical subjects.
+                    </p>
+
+                    <div class="row mt-4 g-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="icon-box me-3"><i class="fas fa-location-dot"></i></div>
+                                <div>
+                                    <small class="text-muted d-block">Location</small>
+                                    <strong class="text-dark">Rangpur, Bangladesh</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center">
+                                <div class="icon-box me-3"><i class="fas fa-briefcase"></i></div>
+                                <div>
+                                    <small class="text-muted d-block">Experience</small>
+                                    <strong class="text-dark">3+ Years Teaching</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Highlights Cards -->
+                <div class="col-lg-5">
+                    <div class="about-card p-4 mb-3">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-box me-3 flex-shrink-0"><i class="fas fa-brain"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Problem-Solving Approach</h5>
+                                <p class="text-muted small mb-0">Identifying weak spots in students and offering customized logic-building strategies.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card p-4 mb-3">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-box me-3 flex-shrink-0"><i class="fas fa-book-open"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Exam-Oriented Preparation</h5>
+                                <p class="text-muted small mb-0">Rigorous model tests, progress monitoring, and targeted practice for top grades.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card p-4">
+                        <div class="d-flex align-items-start">
+                            <div class="icon-box me-3 flex-shrink-0"><i class="fas fa-laptop-code"></i></div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Tech & Coding Skills</h5>
+                                <p class="text-muted small mb-0">Combining web development, Python, and ICT concepts for interactive learning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+    <!-- Education Section -->
+    <section id="education" class="py-5 style-bg">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Education</h2>
+                <p class="text-muted">My academic qualifications and educational background.</p>
+            </div>
+
+            <div class="timeline">
+
+                <!-- B.Sc in CSE -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Graduated</span>
+                        <h4 class="fw-bold text-dark mb-1">Bachelor of Science in CSE</h4>
+                        <h6 class="text-primary fw-semibold mb-2">Begum Rokeya University, Rangpur</h6>
+                        <p class="text-muted small mb-0">
+                            Completed B.Sc. in Computer Science and Engineering with a focus on problem-solving, algorithms, and software development foundations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- HSC -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Year: 2020</span>
+                        <h4 class="fw-bold text-dark mb-1">Higher Secondary Certificate (HSC)</h4>
+                        <h6 class="text-primary fw-semibold mb-2">Kashipur Degree College, Phulbari, Kurigram</h6>
+                        <p class="text-muted small mb-0">
+                            <strong>GPA: 4.75</strong> out of 5.00 — Science Group.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- SSC -->
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Year: 2018</span>
+                        <h4 class="fw-bold text-dark mb-1">Secondary School Certificate (SSC)</h4>
+                        <h6 class="text-primary fw-semibold mb-2">Uttor Rabaitary Bohumukhi Uchcha Biddalay, Phulbari, Kurigram</h6>
+                        <p class="text-muted small mb-0">
+                            <strong>GPA: 4.67</strong> out of 5.00 — Science Group.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Teaching Experience Section -->
+    <section id="experience" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Teaching Experience</h2>
+                <p class="text-muted">My professional journey as an educator shaping future minds.</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="exp-card">
+                        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-4">
+                            <div>
+                                <h3 class="fw-bold text-dark mb-1">Mathematics Teacher</h3>
+                                <h5 class="text-primary fw-semibold mb-0">
+                                    <i class="fas fa-school me-2"></i>Creative Academy, Rangpur
+                                </h5>
+                            </div>
+                            <div class="mt-2 mt-md-0">
+                                <span class="badge bg-primary fs-6 px-3 py-2 rounded-pill">
+                                    <i class="fas fa-calendar-alt me-2"></i>3 Years Experience
+                                </span>
+                            </div>
+                        </div>
+
+                        <h6 class="fw-bold text-dark mb-3">Key Responsibilities & Achievements:</h6>
+                        <ul class="list-unstyled responsibility-list">
+                            <li><i class="fas fa-check-circle"></i> <strong>SSC Mathematics Coaching:</strong> Delivering comprehensive lessons tailored to the board exam curriculum.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Exam Preparation:</strong> Conducting regular mock tests and providing model test solutions.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Problem-Solving Training:</strong> Developing logical thinking and step-by-step problem-solving skills in students.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Identifying Student Weaknesses:</strong> Providing personalized guidance to help weak students grasp complex math concepts.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Progress Monitoring:</strong> Tracking individual academic growth and offering regular constructive feedback.</li>
+                            <li><i class="fas fa-check-circle"></i> <strong>Result Enhancement Support:</strong> Mentoring students to achieve GPA-5 and top scores in board examinations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 style-bg">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title">My Skills</h2>
+                <p class="text-muted">A blend of academic teaching expertise and technical proficiency.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Skill 1: Mathematics Teaching -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center h-100">
+                        <div class="skill-icon"><i class="fas fa-calculator"></i></div>
+                        <h5 class="fw-bold text-dark">Mathematics Teaching</h5>
+                        <p class="text-muted small">Specialized in SSC Math & Problem Solving</p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar" role="progressbar" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 2: HSC ICT -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center h-100">
+                        <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h5 class="fw-bold text-dark">HSC ICT</h5>
+                        <p class="text-muted small">C Programming, HTML, Networking & Logic Gates</p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 3: Web Design & Coding -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center h-100">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h5 class="fw-bold text-dark">Coding & Web Design</h5>
+                        <p class="text-muted small">Python, Flask, HTML, CSS & JavaScript</p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill 4: Problem Solving -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="skill-card text-center h-100">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <h5 class="fw-bold text-dark">Problem Solving</h5>
+                        <p class="text-muted small">Analytical thinking & Logic Building</p>
+                        <div class="progress mt-3">
+                            <div class="progress-bar" role="progressbar" style="width: 88%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Soft Skills Badges -->
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <h6 class="fw-bold text-muted mb-3">ADDITIONAL COMPETENCIES</h6>
+                    <span class="badge bg-white text-dark border px-3 py-2 m-1 shadow-sm"><i class="fas fa-check text-success me-1"></i> Exam Preparation</span>
+                    <span class="badge bg-white text-dark border px-3 py-2 m-1 shadow-sm"><i class="fas fa-check text-success me-1"></i> Computer Literacy</span>
+                    <span class="badge bg-white text-dark border px-3 py-2 m-1 shadow-sm"><i class="fas fa-check text-success me-1"></i> Student-Centered Teaching</span>
+                    <span class="badge bg-white text-dark border px-3 py-2 m-1 shadow-sm"><i class="fas fa-check text-success me-1"></i> Student Progress Monitoring</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="text-muted">A showcase of my software engineering and web development projects.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100 d-flex flex-column">
+                        <div class="project-img-box">
+                            <img src="{{ url_for('static', filename='images/projects/project1.jpg') }}"
+                                 onerror="this.src='https://via.placeholder.com/600x400?text=Portfolio+Website'"
+                                 alt="Personal Portfolio Website">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold text-dark">Personal Portfolio Website</h5>
+                            <p class="text-muted small flex-grow-1">
+                                A modern, responsive personal dynamic portfolio application built to present educational background, teaching profile, and technical achievements.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Flask</span>
+                                <span class="tech-badge">Bootstrap 5</span>
+                                <span class="tech-badge">HTML/CSS</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-pill w-100"><i class="fas fa-eye me-1"></i> Details</a>
+                                <a href="#" class="btn btn-dark btn-sm rounded-pill w-100"><i class="fab fa-github me-1"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100 d-flex flex-column">
+                        <div class="project-img-box">
+                            <img src="{{ url_for('static', filename='images/projects/project2.jpg') }}"
+                                 onerror="this.src='https://via.placeholder.com/600x400?text=Math+Quiz+System'"
+                                 alt="Interactive Math Quiz App">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold text-dark">Interactive Math Quiz App</h5>
+                            <p class="text-muted small flex-grow-1">
+                                An automated test platform created for SSC students to practice objective math questions with instant score tracking and analytical feedback.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">HTML5</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-pill w-100"><i class="fas fa-eye me-1"></i> Details</a>
+                                <a href="#" class="btn btn-dark btn-sm rounded-pill w-100"><i class="fab fa-github me-1"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card h-100 d-flex flex-column">
+                        <div class="project-img-box">
+                            <img src="{{ url_for('static', filename='images/projects/project3.jpg') }}"
+                                 onerror="this.src='https://via.placeholder.com/600x400?text=Student+Management'"
+                                 alt="Student Management System">
+                        </div>
+                        <div class="p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="fw-bold text-dark">Student Progress Tracker</h5>
+                            <p class="text-muted small flex-grow-1">
+                                A web-based record management software for monitoring individual student attendance, model test results, and weaknesses.
+                            </p>
+                            <div class="d-flex flex-wrap gap-2 mb-3">
+                                <span class="tech-badge">Flask</span>
+                                <span class="tech-badge">SQLite</span>
+                                <span class="tech-badge">CSS3</span>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-pill w-100"><i class="fas fa-eye me-1"></i> Details</a>
+                                <a href="#" class="btn btn-dark btn-sm rounded-pill w-100"><i class="fab fa-github me-1"></i> GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Teaching Portfolio Section -->
+    <section id="teaching-portfolio" class="py-5 style-bg">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Teaching Portfolio</h2>
+                <p class="text-muted">Educational content, lecture notes, and resources for students.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="resource-card text-center">
+                        <i class="fas fa-file-pdf text-danger fs-1 mb-3"></i>
+                        <h5 class="fw-bold text-dark">SSC Math Special Sheet</h5>
+                        <p class="text-muted small">Chapter-wise shortcut techniques & model questions.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2"><i class="fas fa-download me-1"></i> Download PDF</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="resource-card text-center">
+                        <i class="fab fa-youtube text-danger fs-1 mb-3"></i>
+                        <h5 class="fw-bold text-dark">HSC ICT Video Classes</h5>
+                        <p class="text-muted small">C Programming & Logic Gates simplified tutorials.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2"><i class="fas fa-play me-1"></i> Watch Classes</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="resource-card text-center">
+                        <i class="fas fa-award text-warning fs-1 mb-3"></i>
+                        <h5 class="fw-bold text-dark">Student Success Stories</h5>
+                        <p class="text-muted small">Academic achievements & GPA-5 list of my students.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-2"><i class="fas fa-trophy me-1"></i> View Results</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Certificates & Achievements</h2>
+                <p class="text-muted">My academic degrees, training, and teaching awards.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-img-box">
+                            <img src="{{ url_for('static', filename='images/certificates/cert1.jpg') }}"
+                                 onerror="this.src='https://via.placeholder.com/600x400?text=B.Sc.+in+CSE+Degree'"
+                                 alt="B.Sc Certificate">
+                        </div>
+                        <div class="p-3 text-center">
+                            <h6 class="fw-bold text-dark mb-0">B.Sc. in CSE Certificate</h6>
+                            <small class="text-muted">Begum Rokeya University</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-img-box">
+                            <img src="{{ url_for('static', filename='images/certificates/cert2.jpg') }}"
+                                 onerror="this.src='https://via.placeholder.com/600x400?text=Best+Educator+Award'"
+                                 alt="Teaching Excellence Award">
+                        </div>
+                        <div class="p-3 text-center">
+                            <h6 class="fw-bold text-dark mb-0">Teaching Excellence Award</h6>
+                            <small class="text-muted">Creative Academy</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-img-box">
+                            <img src="{{ url_for('static', filename='images/certificates/cert3.jpg') }}"
+                                 onerror="this.src='https://via.placeholder.com/600x400?text=Web+Development+Cert.'"
+                                 alt="Web Dev Certificate">
+                        </div>
+                        <div class="p-3 text-center">
+                            <h6 class="fw-bold text-dark mb-0">Web Development Certificate</h6>
+                            <small class="text-muted">Python & Web Technologies</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 style-bg">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Photo Gallery</h2>
+                <p class="text-muted">Glimpses of my teaching sessions, campus life, and achievements.</p>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-6 col-md-4">
+                    <div class="gallery-item shadow-sm">
+                        <img src="{{ url_for('static', filename='images/gallery/photo1.jpg') }}"
+                             onerror="this.src='https://via.placeholder.com/500x350?text=Classroom+Teaching'" alt="Gallery Photo">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="gallery-item shadow-sm">
+                        <img src="{{ url_for('static', filename='images/gallery/photo2.jpg') }}"
+                             onerror="this.src='https://via.placeholder.com/500x350?text=University+Life'" alt="Gallery Photo">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="gallery-item shadow-sm">
+                        <img src="{{ url_for('static', filename='images/gallery/photo3.jpg') }}"
+                             onerror="this.src='https://via.placeholder.com/500x350?text=Problem+Solving+Session'" alt="Gallery Photo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="text-muted">Feel free to reach out for teaching inquiries, academic guidance, or technical collaborations.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Contact Details -->
+                <div class="col-lg-5">
+                    <div class="contact-info-card h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <h4 class="fw-bold text-dark mb-4">Contact Information</h4>
+
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="contact-icon me-3"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <small class="text-muted d-block">Email Me</small>
+                                    <strong class="text-dark">cse12005004brur@gmail.com</strong>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="contact-icon me-3"><i class="fas fa-phone-alt"></i></div>
+                                <div>
+                                    <small class="text-muted d-block">Call / WhatsApp</small>
+                                    <strong class="text-dark">+8801310954958</strong>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="contact-icon me-3"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <small class="text-muted d-block">Location</small>
+                                    <strong class="text-dark">Rangpur, Bangladesh</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pt-3 border-top">
+                            <h6 class="fw-bold text-dark mb-3">Download Resume / CV</h6>
+                            <a href="{{ url_for('static', filename='files/Arif_CV.pdf') }}" download class="btn btn-primary rounded-pill w-100">
+                                <i class="fas fa-download me-2"></i> Download Full Resume (PDF)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-7">
+                    <div class="contact-info-card">
+                        <h4 class="fw-bold text-dark mb-4">Send a Message</h4>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label text-muted small">Your Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter your full name shadow-none" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-muted small">Your Email</label>
+                                    <input type="email" class="form-control shadow-none" placeholder="name@example.com" required>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label text-muted small">Subject</label>
+                                    <input type="text" class="form-control shadow-none" placeholder="Teaching / Project / General Inquiry">
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label text-muted small">Message</label>
+                                    <textarea class="form-control shadow-none" rows="4" placeholder="Write your message here..."></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary rounded-pill px-4 py-2">
+                                        <i class="fas fa-paper-plane me-2"></i> Send Message
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container text-center">
+            <p class="mb-2">© 2026 Md. Arif Hossain. All rights reserved.</p>
+
+http://googleusercontent.com/map_location_reference/1
+            <p class="small text-muted mb-0">B.Sc. in Computer Science & Engineering, [Begum Rokeya University, Rangpur](http://googleusercontent.com/map_location_reference/0)</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
